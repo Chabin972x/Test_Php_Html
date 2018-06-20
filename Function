@@ -1,0 +1,8 @@
+aboyer: function () {
+       var aboiement = "Whoua ! Whoua !";
+       if (this.taille >= 75) {
+        aboiement = "Grrr ! Grrr !";
+        } else if (this.taille <= 22) {
+            aboiement = "Kaii ! Kaii !";
+       }
+       return aboiement;
